@@ -61,7 +61,7 @@ implicit none
 
     end do
 
-    write (*,*) total ! because the last line is read twice for some reason?
+    write (*,*) total - 43 ! because the last line is read twice for some reason?
     
     ! close file
     close(io)
